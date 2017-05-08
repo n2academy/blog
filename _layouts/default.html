@@ -7,13 +7,13 @@
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/blog/css/syntax.css">
+      <link rel="stylesheet" href="/problems/css/syntax.css">
 
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="/blog/css/main.css">
+      <link rel="stylesheet" href="/problems/css/main.css">
 
       <!-- Responsive CSS -->
-      <link rel="stylesheet" href="/blog/css/responsive.css">
+      <link rel="stylesheet" href="/problems/css/responsive.css">
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet"> 
@@ -22,14 +22,14 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/blog/"><img id="logo" src="/blog/images/logo.png"></a></h1>
+          <h1 class="title"><a href="/problems/"><img id="logo" src="/problems/images/logo.png"></a></h1>
           <span class="tagline">n2 academy</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts reversed %}
               <li class="post-link">
-                <a class="post-title" href="/blog{{ post.url }}">
+                <a class="post-title" href="/problems{{ post.url }}">
                   <div class="post-date">{{ post.date | date_to_string }}</div>
                   {{ post.title }}
                 </a>
@@ -49,6 +49,6 @@
         {{ content }}
 
     </div>
-    <script src="/blog/scripts/responsive.js" type="text/javascript"></script>
+    <script src="/problems/scripts/responsive.js" type="text/javascript"></script>
   </body>
 </html>

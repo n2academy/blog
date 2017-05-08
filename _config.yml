@@ -1,4 +1,4 @@
 name: Blog
 markdown: kramdown
 # pygments: true
-baseurl: /blog
+baseurl: /problems
