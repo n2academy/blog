@@ -1,4 +1,4 @@
 name: Blog
-markdown: redcarpet
+markdown: kramdown
 # pygments: true
 baseurl: /blog
