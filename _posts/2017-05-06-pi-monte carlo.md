@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Llogaritja e π
-date:   2017-05-08 12:00:00
+title: P5. Llogaritja e π
+date:  2017-05-08 12:00:00
 categories: posts
 ---
 
-Ne kete ushtrim do eksplorojme llogaritjen me perafersi te vleres se pi.
-
-Ndertojme nje rreth me rreze `r` brenda nje katrori me gjatesi brinje `2r`.
+Ne kete ushtrim do eksplorojme llogaritjen me perafersi te vleres se pi. Ndertojme nje rreth me 
+rreze `r` brenda nje katrori me gjatesi brinje `2r`.
 
 ![rreth katror](https://i.imgur.com/GzcWhNR.png "rreth katror")
 
@@ -37,10 +36,10 @@ i cili merr si parameter numrin e iterimeve (sa pika te rastesishme duhet te gje
 dhe kthen nje vlere te perafert te pi (float), duke kryer simulimin e mesiperm me numrin e dhene
 te iterimeve.
 
-  ```python
-  def pi(iterations):
-      ...
-      ...
+```python
+def pi(iterations):
+    ...
+    ...
 
-  #pi(10000) => 3.1415...
-  ```
+#pi(10000) => 3.1415...
+```

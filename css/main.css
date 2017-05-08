@@ -182,6 +182,7 @@ a:hover {
 .post ul, .post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
+  font-size: 13px;
 }
 
 .post code {

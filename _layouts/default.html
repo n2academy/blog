@@ -27,7 +27,7 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
+            {% for post in site.posts reversed %}
               <li class="post-link">
                 <a class="post-title" href="/blog{{ post.url }}">
                   <div class="post-date">{{ post.date | date_to_string }}</div>

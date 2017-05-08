@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Palindrome
-date:   2017-05-08 12:00:00
+title: P3. Palindrome
+date:  2017-05-08 12:00:00
 categories: posts
 ---
 

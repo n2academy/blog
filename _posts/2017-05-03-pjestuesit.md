@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pjestuesit
-date:   2017-05-08 12:00:00
+title: P2. Pjestuesit
+date:  2017-05-08 12:00:00
 categories: posts
 ---
 
@@ -9,9 +9,9 @@ Shkruani nje funksion qe merr nje numer te plote (`int`) dhe printon
 gjithe pjestuesit e atij numri. (`a` eshte pjestues i `b` nese pjestimi `b/a`
 e ka mbetjen `0`)
 
-Mbetja e nje pjestimi ne python mund te perftohet nepermjet operatorit `%`.
+Mbetja e nje pjestimi ne python mund te perftohet nepermjet operatorit `%`. Pra `6 % 2` 
+eshte `0`, sepse mbetja e pjestimit `6/2` eshte `0`. `7 % 2` eshte `1`.
 
-Pra `6 % 2` eshte `0`, sepse mbetja e pjestimit `6/2` eshte `0`. `7 % 2` eshte `1`.
 
 ## Cfare duhet dorezuar
 
