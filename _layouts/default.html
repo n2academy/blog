@@ -22,14 +22,14 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/blog/images/logo.png"></a></h1>
+          <h1 class="title"><a href="/blog/"><img id="logo" src="/blog/images/logo.png"></a></h1>
           <span class="tagline">n2 academy</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
-                <a class="post-title" href="/blog/{{ post.url }}">
+                <a class="post-title" href="/blog{{ post.url }}">
                   <div class="post-date">{{ post.date | date_to_string }}</div>
                   {{ post.title }}
                 </a>
