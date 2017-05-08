@@ -18,9 +18,9 @@ html, body {
 body {
   color: #4a4a4a;
   background-color: #fafbfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Roboto Slab', Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 0.75em;
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .posts-list li {
-  text-align: center;
+  text-align: left;
   line-height: 1.75em;
 }
 
@@ -120,12 +120,11 @@ a:hover {
 /*****************************************************************************/
 
 #date {
-  font-size: 16px;
-  padding-top: 0.25em;
-  margin-bottom: 2em;
+  font-size: 11px;
+  padding-bottom: 3em;
   text-transform: uppercase;
-  font-weight: 600;
-  color: #787878;
+  font-weight: 400;
+  color: red;
 }
 
 #cover-photo-container,
@@ -152,9 +151,8 @@ a:hover {
 }
 
 .post h2 {
-  margin-top: 1.25em;
-  margin-left: -0.5em;
-  margin-bottom: 1.25em;
+  margin-top: 1.6em;
+  font-size: 17px;
 }
 
 .post a,
@@ -171,11 +169,12 @@ a:hover {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  margin-bottom: 20px;
 }
 
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
   margin-bottom: 1.45em;
   text-align: justify;
 }
@@ -193,6 +192,7 @@ a:hover {
 
 .post pre code {
   border: none;
+  font-size: 13px;
 }
 
 /* terminal */
@@ -251,9 +251,9 @@ a:hover {
 
 .post-date {
   color: #8a8a8a;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: monospace;
   font-weight: 600;
-  font-size: 0.65em;
+  font-size: 0.75em;
   display: block;
   text-transform: uppercase;
 }
