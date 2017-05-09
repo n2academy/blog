@@ -41,6 +41,8 @@ x = random.choice(ls) # x eshte nje element i rastesishem nga lista ls
 print x # printoni x per ta verifikuar
 ```
 
+Shihni gjithashtu [shenimin](https://n2academy.github.io/problems/posts/2017/05/08/rot_13.html#-kujdes) rreth manipulimit te variablave te tipit `str` (string)
+
 ## 3. Cfare duhet dorezuar.
 
 Nje file me emrin `password_generator.py` dhe permban nje funksion me emrin `generate`, qe
