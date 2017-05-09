@@ -24,3 +24,8 @@ def is_palindrome(input):
 # is_palindrome('avid diva') => True
 # is_palindrome('hello') => False
 ```
+
+
+## Bonus
+
+Sa palindroma ka mes numrave natyrore me 5 shifra? Po me 100 shifra? Po me 1.000.000?
