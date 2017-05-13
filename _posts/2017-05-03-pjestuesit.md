@@ -1,22 +1,22 @@
 ---
 layout: post
-title: P2. Pjestuesit
+title: P2. Pjesetuesit
 date:  2017-05-08 12:00:00
 categories: posts
 ---
 
 Shkruani nje funksion qe merr nje numer te plote (`int`) dhe printon
-gjithe pjestuesit e atij numri. (`a` eshte pjestues i `b` nese pjestimi `b/a`
+gjithe pjesetuesit e atij numri. (`a` eshte pjesetues i `b` nese pjesetimi `b/a`
 e ka mbetjen `0`)
 
-Mbetja e nje pjestimi ne python mund te perftohet nepermjet operatorit `%`. Pra `6 % 2` 
-eshte `0`, sepse mbetja e pjestimit `6/2` eshte `0`. `7 % 2` eshte `1`.
+Mbetja e nje pjesetimi ne python mund te perftohet nepermjet operatorit `%`. Pra `6 % 2`
+eshte `0`, sepse mbetja e pjesetimit `6/2` eshte `0`. `7 % 2` eshte `1`.
 
 
 ## Cfare duhet dorezuar
 
 Nje file me emrin `divisors.py` qe permban nje funksion me emrin `divisors`, i
-cili merr nje numer `n` dhe printon gjithe pjestuesit e `n`.
+cili merr nje numer `n` dhe printon gjithe pjesetuesit e `n`.
 
 ```python
 def divisors(n):
