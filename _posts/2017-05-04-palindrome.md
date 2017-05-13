@@ -5,7 +5,7 @@ date:  2017-05-08 12:00:00
 categories: posts
 ---
 
-Shkruani nje funksion qe merr si argument nje `string` kontrollon nese
+Shkruani nje funksion qe merr si argument nje `string` dhe kontrollon nese
 eshte palindrome. (Nje palindrome eshte nje string qe lexohet njesoj si nga e majta
 ne te djathte dhe nga e djathta ne te majte. P.sh: `ANA`, `alula`, `avid diva`
 

@@ -18,7 +18,7 @@ Seksionet:
 Python vjen i pajisur me nje sere modulesh te ndertuar nga zhvilluesit e
 gjuhes dhe komuniteti. Nje modul eshte nje grupim funksionesh qe mund te
 perdoren ne kontekste te ndryshme. Modulet mund te importohen me komanden
-`import <emri_i_modulit>`. Per shembull, modulin `random` mund te importohet
+`import <emri_i_modulit>`. Per shembull, moduli `random` mund te importohet
 nepermjet komandes `import random`. Kjo i jep akses programit tuaj ne gjithe
 funksionet qe perkfuzohen brenda modulit `random`
 
