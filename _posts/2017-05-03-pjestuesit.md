@@ -1,6 +1,6 @@
 ---
 layout: post
-title: P2. pjesetuesit
+title: P2. Pjesetuesit
 date:  2017-05-08 12:00:00
 categories: posts
 ---
